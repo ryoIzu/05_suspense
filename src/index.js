@@ -4,12 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import LazyMulti from './Components/LazyMulti';
+import SuspenseResult from './Components/SuspenseResult';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <LazyMulti />
+    <SuspenseResult />
   </>  
 );
 
