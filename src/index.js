@@ -4,12 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import LazyBasic from './Components/LazyBasic';
+import LazyMulti from './Components/LazyMulti';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <LazyBasic />
+    <LazyMulti />
   </>  
 );
 
